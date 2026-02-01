@@ -1,11 +1,3 @@
-+++
-title = "The Important Thing"
-date = 2026-02-01T22:55:00+08:00
-description = "关于人生目标、财富、家庭、健康和事业的思考与规划"
-tags = ["人生哲学", "自我提升", "规划", "投资", "健康"]
-draft = false
-+++
-
 # The Important Thing
 
 做正确的事，如果发现自己在做不正确的事情，什么时候停下来都不晚。
