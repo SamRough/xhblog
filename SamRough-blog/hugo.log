@@ -1,0 +1,33 @@
+Watching for changes in /Users/xinhao/project/xhblog/SamRough-blog/{archetypes,assets,content,data,i18n,layouts,static,themes}
+Watching for config changes in /Users/xinhao/project/xhblog/SamRough-blog/hugo.toml
+Start building sites … 
+hugo v0.124.1-db083b05f16c945fec04f745f0ca8640560cf1ec+extended darwin/amd64 BuildDate=2024-03-20T11:40:10Z VendorInfo=brew
+
+
+                   | EN  
+-------------------+-----
+  Pages            | 13  
+  Paginator pages  |  0  
+  Non-page files   |  2  
+  Static files     |  3  
+  Processed images |  0  
+  Aliases          |  0  
+  Cleaned          |  0  
+
+Built in 30 ms
+Environment: "development"
+Serving pages from disk
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1) 
+Press Ctrl+C to stop
+
+Change detected, rebuilding site (#1).
+2026-02-01 22:55:30.454 +0800
+Source changed /blog/the-important-thing.md
+Total in 42 ms
+
+Change detected, rebuilding site (#2).
+2026-02-01 23:03:04.440 +0800
+Source changed /blog/the-important-thing.md.tmp.47195.1769958184282
+Source changed /blog/the-important-thing.md
+Total in 17 ms
