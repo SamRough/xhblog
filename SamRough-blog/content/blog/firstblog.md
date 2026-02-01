@@ -1,12 +1,7 @@
 +++
-title = 'Firstblog'
+title = 'Why I start this blog'
 date = 2024-04-05T12:20:55+08:00
 
 +++
 
-
-# 森么事什么
-
-你好 hugo
-
-今天是一个好天气，明天是一个一般的天气。我们都有好天气和坏天气。不要担心。
+I need a place to write something. and to write in english. The things 
