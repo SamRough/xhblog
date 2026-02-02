@@ -27,13 +27,30 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: Debug - Show directory structure
+        run: |
+          echo "Current directory: $(pwd)"
+          ls -la
+          echo "SamRough-blog directory:"
+          ls -la SamRough-blog/
+          echo "Checking submodules:"
+          git submodule status
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
           extended: true
       - name: Build
-        run: hugo --minify -s SamRough-blog
+        run: |
+          echo "Building Hugo site from SamRough-blog directory"
+          hugo version
+          echo "Checking Hugo configuration:"
+          cat SamRough-blog/hugo.toml | grep -E "(baseURL|theme|title)"
+          hugo --minify -s SamRough-blog
+          echo "Build completed. Checking public directory:"
+          ls -la SamRough-blog/public/
+          echo "Sample of index.html:"
+          head -20 SamRough-blog/public/index.html
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
