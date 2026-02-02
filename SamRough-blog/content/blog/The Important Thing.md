@@ -3,7 +3,6 @@ title = "The Important Thing"
 date = "2024-08-01"
 +++
 
-# The Important Thing
 
 做正确的事，如果发现自己在做不正确的事情，什么时候停下来都不晚。
 
