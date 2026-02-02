@@ -1,9 +1,8 @@
 +++
-title = "王新豪 (Xinhao Wang)"
+title = ""
 description = "记录思考、学习与成长的个人空间"
 +++
 
-# 王新豪 (Xinhao Wang)
 
 Hi there! I'm Xinhao Wang, a software developer passionate about technology, investing, and personal growth.
 
