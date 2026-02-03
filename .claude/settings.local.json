@@ -1,7 +1,21 @@
 {
   "permissions": {
     "allow": [
-      "Bash(hugo version:*)"
+      "Bash(hugo version:*)",
+      "Bash(hugo:*)",
+      "Bash(lsof:*)",
+      "Bash(git add:*)",
+      "Bash(git push:*)",
+      "Bash(git check-ignore:*)",
+      "Bash(git commit:*)",
+      "Bash(gh run list:*)",
+      "Bash(git checkout:*)",
+      "Bash(git pull:*)",
+      "Bash(git merge:*)",
+      "Bash(find:*)",
+      "WebFetch(domain:static.wikia.nocookie.net)",
+      "Bash(curl:*)",
+      "WebSearch"
     ]
   }
 }
